@@ -6,11 +6,11 @@ It automatically extracts geometric features (holes) from 2D/3D finite element m
 - Cylindrical feature recognition
 - Coaxial hole grouping
 - Automatic SET_GRID generation
-- ### 1. Mesh Topology Processing
+### 1. Mesh Topology Processing
 - Extract nodes and elements from HyperMesh model
 - Reconstruct element faces (hexa / penta / tetra)
 - Identify free faces using face frequency filtering
-- ### 2. Surface Reconstruction
+### 2. Surface Reconstruction
 - Build adjacency graph based on shared edges
 - Extract connected surface loops using region growing algorithm
 
